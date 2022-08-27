@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.contaner {
+  width: 1400px;
+  margin: 0px auto;
+}
+body{
+  font-family: sans-serif;
+}
+section {
+  padding: 0px 150px;
+}
+/* header */
+header{
+width: 100%;
+height: 60px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.links a{
+  margin-left:50px ;
+  text-decoration: none;
+  color: #111;
+}
+
+.btn-group button{
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 20px;
+  border: none;
+  transition: all 1s;
+}
+
+.btn-group button:hover {
+  background-color: #0555ff;
+  color: white;
+}
+/* /header */
+
+/* info */
+.info {
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  margin: 40px 0px;
+ position: relative;
+}
+
+.info h1 {
+  font-size: 70px;
+}
+
+.info p {
+  font-weight: 400;
+  font-size: 22px;
+  color: #5b5e6d;
+  margin: 25px 0px;
+}
+
+.info button{
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  transition: all 1s;
+  box-shadow: 2px 2px 5px #111;
+}
+
+.info button:hover{
+  background-color: #0555ff;
+  color: white;
+}
+
+.info .active, .btn-group .active {
+  background-color: #0555ff;
+  color: aliceblue;
+}
+/* /info */
+
+/* imags-brend */
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-container .photo {
+  height: 631px;
+  position: relative;
+  top: 90px;
+}
+/* /imags-brend */
+
+/* partners */
+.partners{
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.partners .icons {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.float {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.float h1 {
+  font-size: 30px;
+  margin: 0px 15px;
+}
+
+/* /partners */
+
+/* servis */
+.servis {
+  text-align: center;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servis p{
+  margin-top: 20px;
+}
+
+.servis .exclamation{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: block;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right:7px;
+}
+
+.servis button {
+  width: 210px;
+  height: 40px;
+  border-radius: 30px;
+  margin-top: 20px;
+  background: rgba(5, 85, 255, 0.1);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* servis */
+
+/* all-card */
+.all-card {
+  width: 100%;
+  min-height: 1000px;
+  /* background-color: #0555ff; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 70px 0px;
+}
+
+.develop, .build, .Update {
+  display: flex;
+  align-items: center;
+}
+
+.develop-info, .build-info, .Update-info {
+  width: 650px;
+}
+
+.develop-info h1, .build-info h1, .Update-info h1{
+  font-size: 72px;
+}
+
+.develop-info p, .build-info p, .Update-info p{
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 0px;
+  line-height: 32px; 
+  color: #5B5E6D;
+}
+
+.develop-info a, .build-info a, .Update-info a{
+  color:  #000000;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.develop-img img, .build-img img, .Update-img img{
+  width: 457px;
+  height: 460px;
+}
+/* /all-card */
+
+/* partners */
+.card .partners-1{
+  text-align: center;
+  margin-top: 40px;
+  line-height: 40px;
+}
+
+.card .partners-1 p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #5B5E6D;
+}
+
+.card .partners-1 h1 {
+  font-weight: 900;
+  font-size: 52px;
+  color: #050038;
+  line-height: 32px;
+}
+/* /partners */
+
+/* card-1 */
+.card {
+  width: 100%;
+}
+.card-parent {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.card-1{
+width: 370px;
+height: 370px;
+background-color: #ffffff;
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+margin-top: 80px;
+margin-left: 100px;
+}
+
+.card-1 img {
+  width: 45px;
+  height: 45px;
+  padding-top: 10px;
+}
+
+.card-1 h1{
+  font-size: 16px;
+  color: #050038;
+}
+
+.card-1 p{
+  font-weight: 400;
+  font-size: 16px;
+  position: relative;
+}
+
+.lisa{
+  position: relative;
+  left: 45px;
+  bottom: 35px;
+}
+
+/* image galochka */
+.card-1 h1 .galochka{
+ width: 17px;
+ clear: both;
+ float:right;
+ position: relative;
+ bottom: 20px;
+ right: 270px;
+}
+/* image galochka */
+
+.card-1 .icons{
+  font-size: 29px;
+  color: #03A9F4;
+  position: relative;
+  left: 320px;
+  bottom: 65px;
+}
+
+.card-1 .paragraph {
+  position: relative;
+  bottom: 40px;
+  line-height: 24px;
+  
+}
+
+.card-1 .paragraph p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 14px;
+}
+
+.card-1 .paragraph-1{
+  position: relative;
+  top: 40px;
+}
+/* /card-1 */
+
+/* footer */
+
+
+footer h1{
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  position: relative;
+  top: 170px;
+  width: 100%;
+  height: 100%;
+
+}
+/* your email */
+.email{
+  margin-left: 350px;
+}
+
+footer .email{
+  width: 528px;
+  height: 80px;
+  background: transparent;
+  border: 1px solid blue;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 22px;
+  margin-top: 200px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+footer .btn{
+  width: 221px;
+  height: 80px;
+  background: #0257ff;
+  color: #ffffff;
+  margin-top: 200px;
+  float:right;
+  position: relative;
+  right: 330px;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 15px;
+}
+
+footer .btn:focus{
+  outline: none;
+}
+
+footer .email:focus{
+  outline: none;
+}
+
+/* your email */
+
+.partners-footer{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 100px;
+}
+
+.partners-footer h2, h3{
+  margin-bottom: 20px;
+}
+
+.partners-footer p{
+line-height: 28px;
+font-weight: 400;
+font-size: 16px;
+color: #7884A6;
+}
+.partners-footer i{
+  font-weight: 400;
+  font-size: 14px;
+  position: relative;
+  line-height: 16px;
+}
+.text{
+  text-align: center;
+  margin-top: 150px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+}
+/* /footer */
